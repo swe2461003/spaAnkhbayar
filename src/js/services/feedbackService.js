@@ -11,5 +11,5 @@ export async function addFeedback({ category, text, name }) {
 export async function updateFeedback(id, status) {
   requireEditor(); if (!['new', 'reviewed', 'resolved'].includes(status)) throw Error('Invalid status');
   const all = await getFeedback(); const item = all.find(f => f.id === id); if (!item) throw Error('Not found');
-  item.status = status; writeStore('feedback', all); await logAction('update', 'Demo feedback status');
+  item.status = status; writeStore('feedback', all); await logAction('update', 'Feedback status');
 }
