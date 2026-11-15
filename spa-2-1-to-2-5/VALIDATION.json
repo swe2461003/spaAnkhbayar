@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-15",
+  "passed": 9,
+  "results": [
+    "2.1 initial default route",
+    "2.2 all five pages and active navigation",
+    "2.3 shared layout",
+    "2.5 English translation and persistence",
+    "2.5 all pages translated and switch back",
+    "2.1 404 and return link",
+    "Back and forward",
+    "2.4 mobile burger, close and overflow",
+    "No missing assets or uncaught errors"
+  ],
+  "errors": []
+}
