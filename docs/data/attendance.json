@@ -1,0 +1,1082 @@
+[
+  {
+    "course": "CON354",
+    "student": "SW26-001",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-001",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-001",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-001",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-001",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-002",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-002",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-002",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-002",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-002",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-003",
+    "date": "2026-11-09",
+    "status": "late"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-003",
+    "date": "2026-11-10",
+    "status": "late"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-003",
+    "date": "2026-11-11",
+    "status": "late"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-003",
+    "date": "2026-11-12",
+    "status": "late"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-003",
+    "date": "2026-11-13",
+    "status": "late"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-004",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-004",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-004",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-004",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-004",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-005",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-005",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-005",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-005",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-005",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-006",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-006",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-006",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-006",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-006",
+    "date": "2026-11-13",
+    "status": "absent"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-001",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-001",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-001",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-001",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-001",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-002",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-002",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-002",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-002",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-002",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-003",
+    "date": "2026-11-09",
+    "status": "late"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-003",
+    "date": "2026-11-10",
+    "status": "late"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-003",
+    "date": "2026-11-11",
+    "status": "late"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-003",
+    "date": "2026-11-12",
+    "status": "late"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-003",
+    "date": "2026-11-13",
+    "status": "late"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-004",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-004",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-004",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-004",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-004",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-005",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-005",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-005",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-005",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-005",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-006",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-006",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-006",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-006",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-006",
+    "date": "2026-11-13",
+    "status": "absent"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-001",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-001",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-001",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-001",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-001",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-002",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-002",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-002",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-002",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-002",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-003",
+    "date": "2026-11-09",
+    "status": "late"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-003",
+    "date": "2026-11-10",
+    "status": "late"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-003",
+    "date": "2026-11-11",
+    "status": "late"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-003",
+    "date": "2026-11-12",
+    "status": "late"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-003",
+    "date": "2026-11-13",
+    "status": "late"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-004",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-004",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-004",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-004",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-004",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-005",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-005",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-005",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-005",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-005",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-006",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-006",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-006",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-006",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-006",
+    "date": "2026-11-13",
+    "status": "absent"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-001",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-001",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-001",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-001",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-001",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-002",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-002",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-002",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-002",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-002",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-003",
+    "date": "2026-11-09",
+    "status": "late"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-003",
+    "date": "2026-11-10",
+    "status": "late"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-003",
+    "date": "2026-11-11",
+    "status": "late"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-003",
+    "date": "2026-11-12",
+    "status": "late"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-003",
+    "date": "2026-11-13",
+    "status": "late"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-004",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-004",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-004",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-004",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-004",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-005",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-005",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-005",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-005",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-005",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-006",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-006",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-006",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-006",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-006",
+    "date": "2026-11-13",
+    "status": "absent"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-001",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-001",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-001",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-001",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-001",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-002",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-002",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-002",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-002",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-002",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-003",
+    "date": "2026-11-09",
+    "status": "late"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-003",
+    "date": "2026-11-10",
+    "status": "late"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-003",
+    "date": "2026-11-11",
+    "status": "late"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-003",
+    "date": "2026-11-12",
+    "status": "late"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-003",
+    "date": "2026-11-13",
+    "status": "late"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-004",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-004",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-004",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-004",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-004",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-005",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-005",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-005",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-005",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-005",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-006",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-006",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-006",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-006",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-006",
+    "date": "2026-11-13",
+    "status": "absent"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-001",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-001",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-001",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-001",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-001",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-002",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-002",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-002",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-002",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-002",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-003",
+    "date": "2026-11-09",
+    "status": "late"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-003",
+    "date": "2026-11-10",
+    "status": "late"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-003",
+    "date": "2026-11-11",
+    "status": "late"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-003",
+    "date": "2026-11-12",
+    "status": "late"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-003",
+    "date": "2026-11-13",
+    "status": "late"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-004",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-004",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-004",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-004",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-004",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-005",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-005",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-005",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-005",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-005",
+    "date": "2026-11-13",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-006",
+    "date": "2026-11-09",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-006",
+    "date": "2026-11-10",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-006",
+    "date": "2026-11-11",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-006",
+    "date": "2026-11-12",
+    "status": "present"
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-006",
+    "date": "2026-11-13",
+    "status": "absent"
+  }
+]

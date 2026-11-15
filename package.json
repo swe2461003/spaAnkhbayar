@@ -1,0 +1,24 @@
+{
+  "name": "con354-lms-spa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CON354 Vanilla JavaScript LMS SPA",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "sass": "sass --load-path=node_modules --watch src/scss/main.scss src/css/main.css",
+    "build:css": "sass --load-path=node_modules --quiet-deps --no-source-map src/scss/main.scss src/css/main.css",
+    "build:images": "node src/tools/generate-images-json.mjs",
+    "build": "npm run build:images && npm run build:css && node tools/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:e2e": "node tests/browser.mjs",
+    "check": "node tools/check.mjs"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "7.1.0",
+    "bulma": "1.0.4",
+    "sass": "1.93.2",
+    "playwright": "1.56.1"
+  },
+  "engines": { "node": ">=20" }
+}

@@ -1,0 +1,16 @@
+import { renderOverviewPage } from './pages/overviewPage.js';
+import { renderSearchPage } from './pages/searchPage.js';
+import { renderCalculationPage } from './pages/calculationPage.js';
+import { renderBooksPage } from './pages/booksPage.js';
+import { renderContactPage } from './pages/contactPage.js';
+import { renderNotFoundPage } from './pages/notFoundPage.js';
+import { renderLoginPage } from './pages/loginPage.js';
+import { renderCoursePage } from './pages/coursePage.js';
+import { renderAttendancePage } from './pages/attendancePage.js';
+import { renderJournalPage } from './pages/journalPage.js';
+import { renderPlanPage } from './pages/planPage.js';
+import { renderMessagesPage } from './pages/messagesPage.js';
+import { renderFeedbackPage } from './pages/feedbackPage.js';
+import { renderLogsPage } from './pages/logsPage.js';
+import { renderArchivePage } from './pages/archivePage.js';
+export const routes = { '/overview': renderOverviewPage, '/search': renderSearchPage, '/calculation': renderCalculationPage, '/books': renderBooksPage, '/contact': renderContactPage, '/404': renderNotFoundPage, '/login': renderLoginPage, '/course': renderCoursePage, '/attendance': renderAttendancePage, '/journal': renderJournalPage, '/plan': renderPlanPage, '/messages': renderMessagesPage, '/feedback': renderFeedbackPage, '/logs': renderLogsPage, '/archive': renderArchivePage };

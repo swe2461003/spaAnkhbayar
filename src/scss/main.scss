@@ -1,0 +1,48 @@
+// Book §1.2–1.3. @use is the supported replacement for Sass @import.
+@use "bulma/sass" with ($primary: #16a34a, $link: #15803d, $family-primary: 'Inter, "Segoe UI", Arial, sans-serif');
+@use "components/navbar";
+@use "components/cards";
+@use "components/modals";
+@use "layouts/page";
+@import url("../vendor/fontawesome/css/all.min.css");
+
+:root { color-scheme: light; --green: #16a34a; --green-dark: #15803d; --ink: #17212f; --muted: #7a8492; --line: #e8ebef; --surface: #f7f8fa; --bulma-body-color: #334155; --bulma-body-background-color: #f7f8fa; --bulma-scheme-h: 220; --bulma-scheme-s: 12%; --bulma-scheme-main-l: 100%; }
+* { box-sizing: border-box; }
+html, body { min-height: 100%; background: var(--surface); color: var(--ink); font-size: 14px; }
+body { margin: 0; }
+button, input, select, textarea { font: inherit; }
+button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+a { color: var(--green-dark); }
+a:hover { color: #116631; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid #86efac; outline-offset: 3px; }
+h1, h2, h3 { color: var(--ink); font-weight: 650; letter-spacing: -.025em; }
+h1 { font-size: 26px; line-height: 1.35; }
+h2 { font-size: 16px; line-height: 1.5; }
+p { line-height: 1.7; }
+small { font-size: 11px; }
+.muted { color: var(--muted); }
+.eyebrow { display: block; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: var(--green-dark); margin-bottom: 10px; }
+.input, .textarea, select.input { background: #fff; color: #334155; border: 1px solid #dce1e7; box-shadow: none; border-radius: 8px; font-size: 13px; min-height: 39px; }
+.input::placeholder, .textarea::placeholder { color: #a0a8b3; }
+.input:disabled { background: #f5f6f8; color: #64748b; }
+.field { display: block; margin-bottom: 16px; }
+.label { font-size: 12px; color: #64748b; font-weight: 500; margin-bottom: 7px; }
+.button { border-radius: 8px; font-size: 12px; height: 39px; box-shadow: none; font-weight: 550; gap: 8px; }
+.button.is-primary { background: var(--green); color: #fff; border: 1px solid var(--green); }
+.button.is-primary:hover { background: var(--green-dark); }
+.button.is-light { background: white; border: 1px solid #dce1e7; color: #475569; }
+.button.is-small { height: 32px; }
+.buttons { align-items: center; gap: 8px; }
+.badge { display: inline-flex; align-items: center; border-radius: 100px; font-size: 10px; font-weight: 500; white-space: nowrap; padding: 4px 10px; line-height: 1.4; }
+.badge.green { background: #ecfdf3; color: #169448; }.badge.blue { background: #eff6ff; color: #3b74ce; }.badge.yellow { background: #fffbeb; color: #a77913; }.badge.red { background: #fef2f2; color: #dc5252; }.badge.gray { background: #f3f4f6; color: #6b7280; }
+.avatar { display: flex; justify-content: center; align-items: center; background: #00a63e; color: white; height: 34px; width: 34px; min-width: 34px; border-radius: 50%; font-size: 11px; font-weight: 650; }
+.row-between { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+.skip-link { position: fixed; left: 240px; top: -80px; z-index: 200; padding: 10px; background: white; }.skip-link:focus { top: 5px; }
+.mono { font-family: Consolas, monospace; }
+.empty-state { text-align: center; padding: 44px 20px !important; color: var(--muted); }.empty-state h2 { margin-bottom: 20px; }
+#toast { position: fixed; right: 24px; bottom: 24px; max-width: 90vw; z-index: 300; background: #173e2b; color: white; border-radius: 10px; padding: 13px 22px; opacity: 0; transform: translateY(15px); transition: .18s; pointer-events: none; }#toast.visible { opacity: 1; transform: none; }
+.filter-layout > *, .split-layout > *, .split-equal > *, .bottom-grid > *, .attendance-layout > *, .card-grid > * { min-width: 0; }
+.page, .table-wrap { max-width: 100%; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }

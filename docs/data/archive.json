@@ -1,0 +1,722 @@
+[
+  {
+    "id": "2025-2026-2-courses-CON354",
+    "semester": "2025-2026-2",
+    "type": "courses",
+    "course": "CON354",
+    "name": {
+      "mn": "Программ хангамжийн бүтээлт",
+      "en": "Software Construction"
+    },
+    "department": "software",
+    "count": 3,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-attendance-CON354",
+    "semester": "2025-2026-2",
+    "type": "attendance",
+    "course": "CON354",
+    "name": {
+      "mn": "Программ хангамжийн бүтээлт",
+      "en": "Software Construction"
+    },
+    "department": "software",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-journal-CON354",
+    "semester": "2025-2026-2",
+    "type": "journal",
+    "course": "CON354",
+    "name": {
+      "mn": "Программ хангамжийн бүтээлт",
+      "en": "Software Construction"
+    },
+    "department": "software",
+    "count": 6,
+    "average": 85,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-exams-CON354",
+    "semester": "2025-2026-2",
+    "type": "exams",
+    "course": "CON354",
+    "name": {
+      "mn": "Программ хангамжийн бүтээлт",
+      "en": "Software Construction"
+    },
+    "department": "software",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-courses-CS101",
+    "semester": "2025-2026-2",
+    "type": "courses",
+    "course": "CS101",
+    "name": {
+      "mn": "Программчлалын үндэс",
+      "en": "Programming Fundamentals"
+    },
+    "department": "software",
+    "count": 3,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-attendance-CS101",
+    "semester": "2025-2026-2",
+    "type": "attendance",
+    "course": "CS101",
+    "name": {
+      "mn": "Программчлалын үндэс",
+      "en": "Programming Fundamentals"
+    },
+    "department": "software",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-journal-CS101",
+    "semester": "2025-2026-2",
+    "type": "journal",
+    "course": "CS101",
+    "name": {
+      "mn": "Программчлалын үндэс",
+      "en": "Programming Fundamentals"
+    },
+    "department": "software",
+    "count": 6,
+    "average": 85,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-exams-CS101",
+    "semester": "2025-2026-2",
+    "type": "exams",
+    "course": "CS101",
+    "name": {
+      "mn": "Программчлалын үндэс",
+      "en": "Programming Fundamentals"
+    },
+    "department": "software",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-courses-IS202",
+    "semester": "2025-2026-2",
+    "type": "courses",
+    "course": "IS202",
+    "name": {
+      "mn": "Мэдээллийн систем",
+      "en": "Information Systems"
+    },
+    "department": "systems",
+    "count": 3,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-attendance-IS202",
+    "semester": "2025-2026-2",
+    "type": "attendance",
+    "course": "IS202",
+    "name": {
+      "mn": "Мэдээллийн систем",
+      "en": "Information Systems"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-journal-IS202",
+    "semester": "2025-2026-2",
+    "type": "journal",
+    "course": "IS202",
+    "name": {
+      "mn": "Мэдээллийн систем",
+      "en": "Information Systems"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": 85,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-exams-IS202",
+    "semester": "2025-2026-2",
+    "type": "exams",
+    "course": "IS202",
+    "name": {
+      "mn": "Мэдээллийн систем",
+      "en": "Information Systems"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-courses-CS203",
+    "semester": "2025-2026-2",
+    "type": "courses",
+    "course": "CS203",
+    "name": {
+      "mn": "Алгоритм ба өгөгдлийн бүтэц",
+      "en": "Algorithms and Data Structures"
+    },
+    "department": "software",
+    "count": 3,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-attendance-CS203",
+    "semester": "2025-2026-2",
+    "type": "attendance",
+    "course": "CS203",
+    "name": {
+      "mn": "Алгоритм ба өгөгдлийн бүтэц",
+      "en": "Algorithms and Data Structures"
+    },
+    "department": "software",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-journal-CS203",
+    "semester": "2025-2026-2",
+    "type": "journal",
+    "course": "CS203",
+    "name": {
+      "mn": "Алгоритм ба өгөгдлийн бүтэц",
+      "en": "Algorithms and Data Structures"
+    },
+    "department": "software",
+    "count": 6,
+    "average": 85,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-exams-CS203",
+    "semester": "2025-2026-2",
+    "type": "exams",
+    "course": "CS203",
+    "name": {
+      "mn": "Алгоритм ба өгөгдлийн бүтэц",
+      "en": "Algorithms and Data Structures"
+    },
+    "department": "software",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-courses-DB201",
+    "semester": "2025-2026-2",
+    "type": "courses",
+    "course": "DB201",
+    "name": {
+      "mn": "Өгөгдлийн сан",
+      "en": "Databases"
+    },
+    "department": "systems",
+    "count": 3,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-attendance-DB201",
+    "semester": "2025-2026-2",
+    "type": "attendance",
+    "course": "DB201",
+    "name": {
+      "mn": "Өгөгдлийн сан",
+      "en": "Databases"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-journal-DB201",
+    "semester": "2025-2026-2",
+    "type": "journal",
+    "course": "DB201",
+    "name": {
+      "mn": "Өгөгдлийн сан",
+      "en": "Databases"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": 85,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-exams-DB201",
+    "semester": "2025-2026-2",
+    "type": "exams",
+    "course": "DB201",
+    "name": {
+      "mn": "Өгөгдлийн сан",
+      "en": "Databases"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-courses-WEB301",
+    "semester": "2025-2026-2",
+    "type": "courses",
+    "course": "WEB301",
+    "name": {
+      "mn": "Вэб хөгжүүлэлт",
+      "en": "Web Development"
+    },
+    "department": "systems",
+    "count": 3,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-attendance-WEB301",
+    "semester": "2025-2026-2",
+    "type": "attendance",
+    "course": "WEB301",
+    "name": {
+      "mn": "Вэб хөгжүүлэлт",
+      "en": "Web Development"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-journal-WEB301",
+    "semester": "2025-2026-2",
+    "type": "journal",
+    "course": "WEB301",
+    "name": {
+      "mn": "Вэб хөгжүүлэлт",
+      "en": "Web Development"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": 85,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-2-exams-WEB301",
+    "semester": "2025-2026-2",
+    "type": "exams",
+    "course": "WEB301",
+    "name": {
+      "mn": "Вэб хөгжүүлэлт",
+      "en": "Web Development"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-courses-CON354",
+    "semester": "2025-2026-1",
+    "type": "courses",
+    "course": "CON354",
+    "name": {
+      "mn": "Программ хангамжийн бүтээлт",
+      "en": "Software Construction"
+    },
+    "department": "software",
+    "count": 3,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-attendance-CON354",
+    "semester": "2025-2026-1",
+    "type": "attendance",
+    "course": "CON354",
+    "name": {
+      "mn": "Программ хангамжийн бүтээлт",
+      "en": "Software Construction"
+    },
+    "department": "software",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-journal-CON354",
+    "semester": "2025-2026-1",
+    "type": "journal",
+    "course": "CON354",
+    "name": {
+      "mn": "Программ хангамжийн бүтээлт",
+      "en": "Software Construction"
+    },
+    "department": "software",
+    "count": 6,
+    "average": 85,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-exams-CON354",
+    "semester": "2025-2026-1",
+    "type": "exams",
+    "course": "CON354",
+    "name": {
+      "mn": "Программ хангамжийн бүтээлт",
+      "en": "Software Construction"
+    },
+    "department": "software",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-courses-CS101",
+    "semester": "2025-2026-1",
+    "type": "courses",
+    "course": "CS101",
+    "name": {
+      "mn": "Программчлалын үндэс",
+      "en": "Programming Fundamentals"
+    },
+    "department": "software",
+    "count": 3,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-attendance-CS101",
+    "semester": "2025-2026-1",
+    "type": "attendance",
+    "course": "CS101",
+    "name": {
+      "mn": "Программчлалын үндэс",
+      "en": "Programming Fundamentals"
+    },
+    "department": "software",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-journal-CS101",
+    "semester": "2025-2026-1",
+    "type": "journal",
+    "course": "CS101",
+    "name": {
+      "mn": "Программчлалын үндэс",
+      "en": "Programming Fundamentals"
+    },
+    "department": "software",
+    "count": 6,
+    "average": 85,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-exams-CS101",
+    "semester": "2025-2026-1",
+    "type": "exams",
+    "course": "CS101",
+    "name": {
+      "mn": "Программчлалын үндэс",
+      "en": "Programming Fundamentals"
+    },
+    "department": "software",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-courses-IS202",
+    "semester": "2025-2026-1",
+    "type": "courses",
+    "course": "IS202",
+    "name": {
+      "mn": "Мэдээллийн систем",
+      "en": "Information Systems"
+    },
+    "department": "systems",
+    "count": 3,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-attendance-IS202",
+    "semester": "2025-2026-1",
+    "type": "attendance",
+    "course": "IS202",
+    "name": {
+      "mn": "Мэдээллийн систем",
+      "en": "Information Systems"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-journal-IS202",
+    "semester": "2025-2026-1",
+    "type": "journal",
+    "course": "IS202",
+    "name": {
+      "mn": "Мэдээллийн систем",
+      "en": "Information Systems"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": 85,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-exams-IS202",
+    "semester": "2025-2026-1",
+    "type": "exams",
+    "course": "IS202",
+    "name": {
+      "mn": "Мэдээллийн систем",
+      "en": "Information Systems"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-courses-CS203",
+    "semester": "2025-2026-1",
+    "type": "courses",
+    "course": "CS203",
+    "name": {
+      "mn": "Алгоритм ба өгөгдлийн бүтэц",
+      "en": "Algorithms and Data Structures"
+    },
+    "department": "software",
+    "count": 3,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-attendance-CS203",
+    "semester": "2025-2026-1",
+    "type": "attendance",
+    "course": "CS203",
+    "name": {
+      "mn": "Алгоритм ба өгөгдлийн бүтэц",
+      "en": "Algorithms and Data Structures"
+    },
+    "department": "software",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-journal-CS203",
+    "semester": "2025-2026-1",
+    "type": "journal",
+    "course": "CS203",
+    "name": {
+      "mn": "Алгоритм ба өгөгдлийн бүтэц",
+      "en": "Algorithms and Data Structures"
+    },
+    "department": "software",
+    "count": 6,
+    "average": 85,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-exams-CS203",
+    "semester": "2025-2026-1",
+    "type": "exams",
+    "course": "CS203",
+    "name": {
+      "mn": "Алгоритм ба өгөгдлийн бүтэц",
+      "en": "Algorithms and Data Structures"
+    },
+    "department": "software",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-courses-DB201",
+    "semester": "2025-2026-1",
+    "type": "courses",
+    "course": "DB201",
+    "name": {
+      "mn": "Өгөгдлийн сан",
+      "en": "Databases"
+    },
+    "department": "systems",
+    "count": 3,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-attendance-DB201",
+    "semester": "2025-2026-1",
+    "type": "attendance",
+    "course": "DB201",
+    "name": {
+      "mn": "Өгөгдлийн сан",
+      "en": "Databases"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-journal-DB201",
+    "semester": "2025-2026-1",
+    "type": "journal",
+    "course": "DB201",
+    "name": {
+      "mn": "Өгөгдлийн сан",
+      "en": "Databases"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": 85,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-exams-DB201",
+    "semester": "2025-2026-1",
+    "type": "exams",
+    "course": "DB201",
+    "name": {
+      "mn": "Өгөгдлийн сан",
+      "en": "Databases"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-courses-WEB301",
+    "semester": "2025-2026-1",
+    "type": "courses",
+    "course": "WEB301",
+    "name": {
+      "mn": "Вэб хөгжүүлэлт",
+      "en": "Web Development"
+    },
+    "department": "systems",
+    "count": 3,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-attendance-WEB301",
+    "semester": "2025-2026-1",
+    "type": "attendance",
+    "course": "WEB301",
+    "name": {
+      "mn": "Вэб хөгжүүлэлт",
+      "en": "Web Development"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-journal-WEB301",
+    "semester": "2025-2026-1",
+    "type": "journal",
+    "course": "WEB301",
+    "name": {
+      "mn": "Вэб хөгжүүлэлт",
+      "en": "Web Development"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": 85,
+    "passRate": 92,
+    "status": "completed"
+  },
+  {
+    "id": "2025-2026-1-exams-WEB301",
+    "semester": "2025-2026-1",
+    "type": "exams",
+    "course": "WEB301",
+    "name": {
+      "mn": "Вэб хөгжүүлэлт",
+      "en": "Web Development"
+    },
+    "department": "systems",
+    "count": 6,
+    "average": null,
+    "passRate": 92,
+    "status": "completed"
+  }
+]

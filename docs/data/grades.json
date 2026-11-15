@@ -1,0 +1,290 @@
+[
+  {
+    "course": "CON354",
+    "student": "SW26-001",
+    "midterm": 17,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-002",
+    "midterm": 18,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-003",
+    "midterm": 19,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-004",
+    "midterm": 20,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-005",
+    "midterm": 16,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CON354",
+    "student": "SW26-006",
+    "midterm": 17,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-001",
+    "midterm": 17,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-002",
+    "midterm": 18,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-003",
+    "midterm": 19,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-004",
+    "midterm": 20,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-005",
+    "midterm": 16,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CS101",
+    "student": "SW26-006",
+    "midterm": 17,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-001",
+    "midterm": 17,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-002",
+    "midterm": 18,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-003",
+    "midterm": 19,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-004",
+    "midterm": 20,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-005",
+    "midterm": 16,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "IS202",
+    "student": "IS26-006",
+    "midterm": 17,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-001",
+    "midterm": 17,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-002",
+    "midterm": 18,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-003",
+    "midterm": 19,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-004",
+    "midterm": 20,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-005",
+    "midterm": 16,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "CS203",
+    "student": "SW26-006",
+    "midterm": 17,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-001",
+    "midterm": 17,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-002",
+    "midterm": 18,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-003",
+    "midterm": 19,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-004",
+    "midterm": 20,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-005",
+    "midterm": 16,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "DB201",
+    "student": "IS26-006",
+    "midterm": 17,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-001",
+    "midterm": 17,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-002",
+    "midterm": 18,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-003",
+    "midterm": 19,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-004",
+    "midterm": 20,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-005",
+    "midterm": 16,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  },
+  {
+    "course": "WEB301",
+    "student": "IS26-006",
+    "midterm": 17,
+    "labs": 24,
+    "homework": 18,
+    "final": 25
+  }
+]

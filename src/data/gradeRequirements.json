@@ -1,0 +1,47 @@
+{
+  "components": [
+    {
+      "key": "midterm",
+      "max": 20
+    },
+    {
+      "key": "labs",
+      "max": 30
+    },
+    {
+      "key": "homework",
+      "max": 20
+    },
+    {
+      "key": "final",
+      "max": 30
+    }
+  ],
+  "bands": [
+    {
+      "min": 90,
+      "letter": "A",
+      "gpa": 4
+    },
+    {
+      "min": 80,
+      "letter": "B",
+      "gpa": 3
+    },
+    {
+      "min": 70,
+      "letter": "C",
+      "gpa": 2
+    },
+    {
+      "min": 60,
+      "letter": "D",
+      "gpa": 1
+    },
+    {
+      "min": 0,
+      "letter": "F",
+      "gpa": 0
+    }
+  ]
+}

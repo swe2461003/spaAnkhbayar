@@ -1,0 +1,89 @@
+{
+  "results": [
+    {
+      "name": "demo login",
+      "status": "passed"
+    },
+    {
+      "name": "dashboard uses actual sample data",
+      "status": "passed"
+    },
+    {
+      "name": "search filters and empty state",
+      "status": "passed"
+    },
+    {
+      "name": "image modal, Escape and focus return",
+      "status": "passed"
+    },
+    {
+      "name": "CSV export downloads filtered rows",
+      "status": "passed"
+    },
+    {
+      "name": "language rerenders data and preserves filters",
+      "status": "passed"
+    },
+    {
+      "name": "attendance save and reload",
+      "status": "passed"
+    },
+    {
+      "name": "journal editing, totals and persistence",
+      "status": "passed"
+    },
+    {
+      "name": "weighted grade calculator",
+      "status": "passed"
+    },
+    {
+      "name": "PDF material modal and actual file",
+      "status": "passed"
+    },
+    {
+      "name": "messages persist and escape HTML",
+      "status": "passed"
+    },
+    {
+      "name": "anonymous feedback and status update",
+      "status": "passed"
+    },
+    {
+      "name": "logs filter and real pagination controls",
+      "status": "passed"
+    },
+    {
+      "name": "archive tabs and filters",
+      "status": "passed"
+    },
+    {
+      "name": "all routes render and unknown route gives 404",
+      "status": "passed"
+    },
+    {
+      "name": "department filter persists",
+      "status": "passed"
+    },
+    {
+      "name": "back forward refresh and keyboard skip link",
+      "status": "passed"
+    },
+    {
+      "name": "loading failure retries and stale route cannot overwrite",
+      "status": "passed"
+    },
+    {
+      "name": "mobile layout and menu",
+      "status": "passed"
+    },
+    {
+      "name": "student demo cannot edit attendance or grades",
+      "status": "passed"
+    },
+    {
+      "name": "no uncaught errors or missing assets",
+      "status": "passed"
+    }
+  ],
+  "errors": []
+}

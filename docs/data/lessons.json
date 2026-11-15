@@ -1,0 +1,9 @@
+[
+  {
+    "id": "sample-lesson",
+    "course": "CON354",
+    "date": "2026-11-13",
+    "topic": "SPA Router",
+    "notes": "Hash route, pages, layouts, components."
+  }
+]

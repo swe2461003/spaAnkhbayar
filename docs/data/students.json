@@ -1,0 +1,74 @@
+[
+  {
+    "id": "SW26-001",
+    "name": "Д. Дорж",
+    "group": "ПХ-21",
+    "department": "software"
+  },
+  {
+    "id": "SW26-002",
+    "name": "Ж. Жавхлан",
+    "group": "ПХ-21",
+    "department": "software"
+  },
+  {
+    "id": "SW26-003",
+    "name": "Т. Тэмүүлэн",
+    "group": "ПХ-21",
+    "department": "software"
+  },
+  {
+    "id": "SW26-004",
+    "name": "С. Сүх",
+    "group": "ПХ-21",
+    "department": "software"
+  },
+  {
+    "id": "SW26-005",
+    "name": "Б. Номин",
+    "group": "ПХ-21",
+    "department": "software"
+  },
+  {
+    "id": "SW26-006",
+    "name": "О. Саруул",
+    "group": "ПХ-21",
+    "department": "software"
+  },
+  {
+    "id": "IS26-001",
+    "name": "А. Энхжин",
+    "group": "МС-22",
+    "department": "systems"
+  },
+  {
+    "id": "IS26-002",
+    "name": "Г. Билгүүн",
+    "group": "МС-22",
+    "department": "systems"
+  },
+  {
+    "id": "IS26-003",
+    "name": "М. Хулан",
+    "group": "МС-22",
+    "department": "systems"
+  },
+  {
+    "id": "IS26-004",
+    "name": "Д. Мөнх",
+    "group": "МС-22",
+    "department": "systems"
+  },
+  {
+    "id": "IS26-005",
+    "name": "Н. Анударь",
+    "group": "МС-22",
+    "department": "systems"
+  },
+  {
+    "id": "IS26-006",
+    "name": "Э. Энхбат",
+    "group": "МС-22",
+    "department": "systems"
+  }
+]

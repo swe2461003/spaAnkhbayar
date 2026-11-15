@@ -1,0 +1,113 @@
+{
+  "exams": [
+    {
+      "course": "CON354",
+      "date": "2026-12-10",
+      "time": "10:00",
+      "room": "Лаб-1"
+    },
+    {
+      "course": "CS101",
+      "date": "2026-12-11",
+      "time": "10:00",
+      "room": "304"
+    },
+    {
+      "course": "IS202",
+      "date": "2026-12-12",
+      "time": "10:00",
+      "room": "402"
+    }
+  ],
+  "topics": [
+    {
+      "title": "HTML / CSS / Bulma",
+      "week": 1,
+      "status": "completed"
+    },
+    {
+      "title": "Sass",
+      "week": 2,
+      "status": "completed"
+    },
+    {
+      "title": "Router",
+      "week": 3,
+      "status": "completed"
+    },
+    {
+      "title": "Pages / Layouts",
+      "week": 4,
+      "status": "completed"
+    },
+    {
+      "title": "Navbar / i18n",
+      "week": 5,
+      "status": "completed"
+    },
+    {
+      "title": "Services / JSON",
+      "week": 6,
+      "status": "completed"
+    },
+    {
+      "title": "Search / Filters",
+      "week": 7,
+      "status": "completed"
+    },
+    {
+      "title": "Images / Modal",
+      "week": 8,
+      "status": "completed"
+    },
+    {
+      "title": "Dashboard",
+      "week": 9,
+      "status": "active"
+    },
+    {
+      "title": "Calculation",
+      "week": 10,
+      "status": "upcoming"
+    },
+    {
+      "title": "PDF / Materials",
+      "week": 11,
+      "status": "upcoming"
+    },
+    {
+      "title": "Footer / Testing",
+      "week": 12,
+      "status": "upcoming"
+    }
+  ],
+  "assignments": [
+    {
+      "course": "CON354",
+      "title": {
+        "mn": "SPA төслийн router",
+        "en": "SPA project router"
+      },
+      "due": "2026-11-20",
+      "status": "pending"
+    },
+    {
+      "course": "DB201",
+      "title": {
+        "mn": "Өгөгдлийн загвар",
+        "en": "Data model"
+      },
+      "due": "2026-11-18",
+      "status": "completed"
+    },
+    {
+      "course": "WEB301",
+      "title": {
+        "mn": "Responsive веб",
+        "en": "Responsive website"
+      },
+      "due": "2026-11-25",
+      "status": "pending"
+    }
+  ]
+}

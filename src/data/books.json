@@ -1,0 +1,86 @@
+[
+  {
+    "id": "CON354",
+    "course": "CON354",
+    "title": {
+      "mn": "Программ хангамжийн бүтээлт",
+      "en": "Software Construction"
+    },
+    "cover": "./img/courses/CON354.svg",
+    "pdf": "./pdf/con354-lab-guide.pdf",
+    "description": {
+      "mn": "Төслийн жишээ удирдамж. Router, services, components болон шалгах ажлууд.",
+      "en": "Sample project guide covering the router, services, components and verification tasks."
+    }
+  },
+  {
+    "id": "CS101",
+    "course": "CS101",
+    "title": {
+      "mn": "Программчлалын үндэс",
+      "en": "Programming Fundamentals"
+    },
+    "cover": "./img/courses/CS101.svg",
+    "pdf": "./pdf/con354-lab-guide.pdf",
+    "description": {
+      "mn": "Төслийн жишээ удирдамж. Router, services, components болон шалгах ажлууд.",
+      "en": "Sample project guide covering the router, services, components and verification tasks."
+    }
+  },
+  {
+    "id": "IS202",
+    "course": "IS202",
+    "title": {
+      "mn": "Мэдээллийн систем",
+      "en": "Information Systems"
+    },
+    "cover": "./img/courses/IS202.svg",
+    "pdf": "./pdf/con354-lab-guide.pdf",
+    "description": {
+      "mn": "Төслийн жишээ удирдамж. Router, services, components болон шалгах ажлууд.",
+      "en": "Sample project guide covering the router, services, components and verification tasks."
+    }
+  },
+  {
+    "id": "CS203",
+    "course": "CS203",
+    "title": {
+      "mn": "Алгоритм ба өгөгдлийн бүтэц",
+      "en": "Algorithms and Data Structures"
+    },
+    "cover": "./img/courses/CS203.svg",
+    "pdf": "./pdf/con354-lab-guide.pdf",
+    "description": {
+      "mn": "Төслийн жишээ удирдамж. Router, services, components болон шалгах ажлууд.",
+      "en": "Sample project guide covering the router, services, components and verification tasks."
+    }
+  },
+  {
+    "id": "DB201",
+    "course": "DB201",
+    "title": {
+      "mn": "Өгөгдлийн сан",
+      "en": "Databases"
+    },
+    "cover": "./img/courses/DB201.svg",
+    "pdf": "./pdf/con354-lab-guide.pdf",
+    "description": {
+      "mn": "Төслийн жишээ удирдамж. Router, services, components болон шалгах ажлууд.",
+      "en": "Sample project guide covering the router, services, components and verification tasks."
+    }
+  },
+  {
+    "id": "WEB301",
+    "course": "WEB301",
+    "title": {
+      "mn": "Вэб хөгжүүлэлт",
+      "en": "Web Development"
+    },
+    "cover": "./img/courses/WEB301.svg",
+    "pdf": "./pdf/con354-lab-guide.pdf",
+    "description": {
+      "mn": "Төслийн жишээ удирдамж. Router, services, components болон шалгах ажлууд.",
+      "en": "Sample project guide covering the router, services, components and verification tasks."
+    }
+  }
+]
