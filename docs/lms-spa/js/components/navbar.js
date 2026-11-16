@@ -1,56 +1,6 @@
-// 2.4: Navbar нь олон page-д давтагдах нэг component юм.
-import { t, toggleLanguage } from '../i18n/i18n.js';
-
-export function renderNavbar() {
-  const links = ['overview', 'search', 'calculation', 'books', 'contact'];
-  return `
-    <header class="app-header">
-      <nav class="navbar container" aria-label="${t('nav.label')}">
-        <div class="navbar-brand">
-          <a class="navbar-item brand" href="#/overview">
-            <span class="brand-mark" aria-hidden="true">L</span>
-            <span><strong>${t('nav.brand')}</strong><small>${t('nav.subtitle')}</small></span>
-          </a>
-          <button class="navbar-burger" type="button" data-target="main-menu"
-            aria-label="${t('nav.menu')}" aria-controls="main-menu" aria-expanded="false">
-            <span aria-hidden="true"></span><span aria-hidden="true"></span>
-            <span aria-hidden="true"></span><span aria-hidden="true"></span>
-          </button>
-        </div>
-        <div id="main-menu" class="navbar-menu">
-          <div class="navbar-end">
-            ${links.map(key => `<a class="navbar-item" href="#/${key}">${t('nav.' + key)}</a>`).join('')}
-            <div class="navbar-item"><button id="langToggle" type="button" class="button is-light" aria-label="${t('nav.languageLabel')}">${t('nav.language')}</button></div>
-          </div>
-        </div>
-      </nav>
-    </header>
-  `;
-}
-
-export function initNavbar() {
-  const burger = document.querySelector('.navbar-burger');
-  const menu = document.getElementById(burger.dataset.target);
-  const closeMenu = () => {
-    burger.classList.remove('is-active');
-    menu.classList.remove('is-active');
-    burger.setAttribute('aria-expanded', 'false');
-  };
-  burger.addEventListener('click', () => {
-    const open = burger.classList.toggle('is-active');
-    menu.classList.toggle('is-active', open);
-    burger.setAttribute('aria-expanded', String(open));
-  });
-  menu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
-  window.addEventListener('resize', () => { if (window.innerWidth > 1023) closeMenu(); });
-  document.getElementById('langToggle').addEventListener('click', () => {
-    toggleLanguage();
-    window.location.reload(); // Номын 2.5 жишээтэй адил шинэ хэлээр дахин зурна.
-  });
-}
-
-export function mountNavbar(root) {
-  if (!root) return;
-  root.innerHTML = renderNavbar();
-  initNavbar();
-}
+import { t, toggleLanguage, getCurrentLanguage } from '../i18n/i18n.js';
+import { icon } from './icons.js';
+const links=['overview','search','calculation','books','contact'];
+export function renderNavbar(){return `<aside class="app-header" id="sidebar"><nav class="navbar" aria-label="${t('nav.label')}"><div class="navbar-brand"><a class="brand navbar-item" href="#/overview"><span class="brand-mark">ХА</span><span><strong>ХААИС</strong><small>DLMS · CON354</small></span></a></div><div class="sidebar-caption">${getCurrentLanguage()==='mn'?'СУРГАЛТЫН УДИРДЛАГА':'LEARNING MANAGEMENT'}</div><div id="main-menu" class="navbar-menu"><div class="navbar-end">${links.map(k=>'<a class="navbar-item" href="#/'+k+'">'+icon(k)+'<span>'+t('nav.'+k)+'</span></a>').join('')}</div></div><div class="sidebar-bottom"><span class="account-avatar">SA</span><span><strong>swe2461003</strong><small>CON354 · LMS SPA</small></span><a href="https://github.com/swe2461003/spaAnkhbayar" aria-label="GitHub">↗</a></div></nav></aside><header class="workspace-topbar"><button class="navbar-burger" type="button" data-target="main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="${t('nav.menu')}">${icon('menu')}</button><div><strong id="topbar-title">${t('nav.overview')}</strong><small>${getCurrentLanguage()==='mn'?'Сургалтын мэдээллийн систем':'Learning management system'}</small></div><div class="topbar-actions"><span class="system-date">${new Intl.DateTimeFormat(getCurrentLanguage()==='mn'?'mn-MN':'en-GB',{year:'numeric',month:'short',day:'numeric'}).format(new Date())}</span><button id="langToggle" type="button" class="button is-light" aria-label="${t('nav.languageLabel')}">${t('nav.language')}</button><span class="account-avatar" title="swe2461003">SA</span></div></header><button class="sidebar-backdrop" tabindex="-1" aria-label="${t('nav.menu')}"></button>`;}
+export function initNavbar(){const burger=document.querySelector('.navbar-burger');const close=()=>{document.body.classList.remove('sidebar-open');burger.setAttribute('aria-expanded','false');};burger.onclick=()=>{const open=document.body.classList.toggle('sidebar-open');burger.setAttribute('aria-expanded',String(open));};document.querySelector('.sidebar-backdrop').onclick=close;document.querySelectorAll('#main-menu a').forEach(a=>a.addEventListener('click',close));window.addEventListener('keydown',e=>{if(e.key==='Escape')close();});window.addEventListener('resize',()=>{if(innerWidth>1023)close();});document.getElementById('langToggle').onclick=()=>{toggleLanguage();location.reload();};}
+export function mountNavbar(root){root.innerHTML=renderNavbar();initNavbar();}

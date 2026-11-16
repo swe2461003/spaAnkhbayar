@@ -1,3 +1,4 @@
+@use 'sass:meta';
 @use "bulma/sass" with (
   $primary: #16a34a,
   $link: #15803d,
@@ -77,3 +78,6 @@ body { min-height: 100vh; background: #f7faf8; color: #26372e; }
 button:focus-visible,a:focus-visible { outline: 3px solid #86efac; outline-offset: 3px; }
 @media (max-width: 1023px) { .navbar { padding: 0 20px; }.navbar-menu { box-shadow: none; padding-bottom: 15px; }.navbar-end>.navbar-item { margin: 4px 0; }.navbar-brand .brand { padding-left: 0; } }
 @media (max-width: 600px) { .page-section { padding: 32px 18px 50px; }.title.is-2 { font-size: 27px; }.welcome { padding: 25px; }.welcome h2 { font-size: 22px; }.feature-card { padding: 22px; }.brand strong { font-size: 15px; }.brand small { font-size: 9px; } }
+
+@include meta.load-css('components/workspace');
+

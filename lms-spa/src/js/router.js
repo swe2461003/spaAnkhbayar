@@ -21,7 +21,7 @@ export function initRouter(routes) {
     document.querySelectorAll('.navbar-menu .navbar-item[href^="#/"]').forEach(link => {
       const active = link.getAttribute('href') === hash;
       link.classList.toggle('is-current', active);
-      if (active) link.setAttribute('aria-current', 'page');
+      if (active) { link.setAttribute('aria-current', 'page'); document.getElementById('topbar-title').textContent = link.textContent.trim(); }
       else link.removeAttribute('aria-current');
     });
   }
