@@ -1,13 +1,22 @@
 import { renderPageLayout } from '../layouts/pageLayout.js';
+import { renderSplitPageLayout } from '../layouts/splitPageLayout.js';
+import { getCourses } from '../services/courseService.js';
+import { loadTxt } from '../services/txtService.js';
+import { getBooks } from '../services/bookService.js';
+import { renderOverviewText } from '../components/overviewText.js';
+import { renderMap, bindMapEvents } from '../components/map.js';
 import { t } from '../i18n/i18n.js';
 
-// 2.2–2.3: overview тусдаа page; бүх page ижил layout ашиглана.
-export function renderOverviewPage() {
-  document.title = t('overview.title') + ' · LMS';
-  document.getElementById('app').innerHTML = renderPageLayout({
-    id: 'overview',
-    title: t('overview.title'),
-    subtitle: t('overview.subtitle'),
-    content: `<div class="welcome"><h2>${t('overview.heading')}</h2><p>${t('overview.welcome')}</p><div class="buttons"><a class="button is-primary" href="#/search">${t('overview.primary')}</a><a class="button is-light" href="#/books">${t('overview.secondary')}</a></div></div><h2 class="section-title">${t('overview.sections')}</h2><div class="columns is-multiline"><div class="column is-half-tablet is-one-quarter-desktop"><article class="feature-card"><span class="step-label">01</span><h2>${t('nav.search')}</h2><p>${t('search.description')}</p><a href="#/search">${t('common.view')} →</a></article></div><div class="column is-half-tablet is-one-quarter-desktop"><article class="feature-card"><span class="step-label">02</span><h2>${t('nav.calculation')}</h2><p>${t('calculation.description')}</p><a href="#/calculation">${t('common.view')} →</a></article></div><div class="column is-half-tablet is-one-quarter-desktop"><article class="feature-card"><span class="step-label">03</span><h2>${t('nav.books')}</h2><p>${t('books.description')}</p><a href="#/books">${t('common.view')} →</a></article></div><div class="column is-half-tablet is-one-quarter-desktop"><article class="feature-card"><span class="step-label">04</span><h2>${t('nav.contact')}</h2><p>${t('contact.description')}</p><a href="#/contact">${t('common.view')} →</a></article></div></div><p class="scope-note">${t('common.scope')}</p>`
-  });
+// 2.10: Номын map + text + info modal-ийг LMS-ийн чиглэлд тохируулсан.
+export async function renderOverviewPage({ signal }) {
+  const app = document.getElementById('app');
+  app.innerHTML = renderPageLayout({ title: t('dashboard.title'), content: `<p>${t('filters.loading')}</p>` });
+  const [courses, text, books] = await Promise.all([getCourses(), loadTxt(), getBooks()]);
+  if (signal.aborted) return;
+  const root = document.createElement('div');
+  const counts = [[courses.length, t('dashboard.courses')], [new Set(courses.map(c => c.department)).size, t('dashboard.departments')], [courses.reduce((sum, c) => sum + c.credits, 0), t('dashboard.credits')], [books.length, t('dashboard.materials')]];
+  root.innerHTML = renderPageLayout({ id: 'overview', title: t('dashboard.title'), subtitle: t('dashboard.subtitle'), content: `<div class="dashboard-stats">${counts.map(([value, label]) => `<div><strong>${value}</strong><span>${label}</span></div>`).join('')}</div>` + renderSplitPageLayout({ leftContent: renderMap(), rightContent: renderOverviewText(text) }) + `<section class="box"><h2 class="section-title">${t('dashboard.formats')}</h2><div class="format-grid">${['lecture','practice','lab'].map(type => `<a href="#/search?type=${type}"><span>${t('filters.' + type)}</span><strong>${courses.filter(c => c.type === type).length}</strong></a>`).join('')}</div></section>` });
+  app.replaceChildren(root);
+  document.title = t('dashboard.title') + ' · LMS';
+  await bindMapEvents(root, signal);
 }

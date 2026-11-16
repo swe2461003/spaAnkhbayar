@@ -1,0 +1,44 @@
+[
+  {
+    "id": "spa-guide",
+    "course": "CON354",
+    "title": {
+      "mn": "SPA төслийн лабораторийн удирдамж",
+      "en": "SPA project laboratory guide"
+    },
+    "description": {
+      "mn": "Router, JSON үйлчилгээ, component, зураг, тооцоолол, PDF болон шалгах ажлын дараалал.",
+      "en": "Router, JSON services, components, images, calculation, PDF resources and validation tasks."
+    },
+    "cover": "./img/courses/CON354.svg",
+    "pdf": "./pdf/con354-spa-guide.pdf"
+  },
+  {
+    "id": "algorithm-guide",
+    "course": "CS203",
+    "title": {
+      "mn": "Алгоритмын дадлагын хуудас",
+      "en": "Algorithm practice worksheet"
+    },
+    "description": {
+      "mn": "Шүүлтүүр, эрэмбэ, жинлэсэн нийлбэрийн жишээ ба шалгах даалгавар.",
+      "en": "Practice tasks for filtering, sorting and weighted sums."
+    },
+    "cover": "./img/courses/CS203.svg",
+    "pdf": "./pdf/cs203-algorithm-guide.pdf"
+  },
+  {
+    "id": "data-guide",
+    "course": "DB201",
+    "title": {
+      "mn": "JSON өгөгдөл зохион байгуулах",
+      "en": "Organizing JSON data"
+    },
+    "description": {
+      "mn": "Код, хоёр хэлний талбар, зургийн manifest болон өгөгдөл шалгах жишээ.",
+      "en": "Examples of identifiers, bilingual fields, image manifests and data validation."
+    },
+    "cover": "./img/courses/DB201.svg",
+    "pdf": "./pdf/db201-json-guide.pdf"
+  }
+]

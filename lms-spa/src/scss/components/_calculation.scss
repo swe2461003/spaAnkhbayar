@@ -1,0 +1,11 @@
+.calc-course { display: flex; gap: 10px; align-items: start; padding: 13px 0; border-bottom: 1px solid #edf1ef; font-size: 12px; cursor: pointer; }
+.calc-course input { margin-top: 4px; }
+.calc-course strong { color: #15803d; }
+.calc-course small { display: block; color: #879c8e; line-height: 1.6; margin-top: 3px; }
+.grade-input { min-width: 70px; width: 78px; height: 36px; padding: 6px 8px; font-size: 12px; }
+.grade-summary { display: flex; justify-content: space-around; gap: 20px; margin-top: 22px; }
+.grade-summary strong { display: block; color: #15803d; font-size: 30px; }
+.grade-summary span { color: #809687; font-size: 12px; }
+.grade-pass,.grade-fail { display: block; margin-top: 6px; font-size: 11px; }.grade-pass { color: #15803d; }.grade-fail { color: #c45151; }
+.calculator-page td>p { font-size: 11px; min-width: 140px; color: #809687; margin-top: 6px; }
+@media(max-width:900px) { .calculator-page .search-sidebar { display: block; }.calculator-page #calculator-courses { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 14px; } }

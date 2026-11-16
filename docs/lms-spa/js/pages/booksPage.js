@@ -1,13 +1,26 @@
 import { renderPageLayout } from '../layouts/pageLayout.js';
-import { t } from '../i18n/i18n.js';
-
-// 2.2–2.3: books тусдаа page; бүх page ижил layout ашиглана.
-export function renderBooksPage() {
-  document.title = t('books.title') + ' · LMS';
-  document.getElementById('app').innerHTML = renderPageLayout({
-    id: 'books',
-    title: t('books.title'),
-    subtitle: t('books.subtitle'),
-    content: `<div class="columns is-multiline"><div class="column is-one-third"><article class="feature-card"><span class="step-label">01</span><h2>${t('books.lecture')}</h2><p>${t('books.lectureText')}</p></article></div><div class="column is-one-third"><article class="feature-card"><span class="step-label">02</span><h2>${t('books.lab')}</h2><p>${t('books.labText')}</p></article></div><div class="column is-one-third"><article class="feature-card"><span class="step-label">03</span><h2>${t('books.project')}</h2><p>${t('books.projectText')}</p></article></div></div><p class="scope-note">${t('books.note')}</p>`
+import { renderGridPageLayout } from '../layouts/gridPageLayout.js';
+import { renderNotification } from '../layouts/notificationLayout.js';
+import { getBooks } from '../services/bookService.js';
+import { renderBookCard } from '../components/bookCard.js';
+import { openPdfModal } from '../components/pdfModal.js';
+import { t, getLocalizedValue as l } from '../i18n/i18n.js';
+export async function renderBooksPage({ signal }) {
+  const books = await getBooks();
+  if (signal.aborted) return;
+  const root = document.createElement('div');
+  root.innerHTML = renderPageLayout({ id: 'books', title: t('materials.title'), subtitle: t('materials.subtitle'), content: `<div class="box materials-search"><label class="label" for="material-query">${t('filters.query')}</label><input class="input" type="search" id="material-query" placeholder="${t('materials.placeholder')}"></div><div id="materials-results"></div>` });
+  document.getElementById('app').replaceChildren(root);
+  document.title = t('materials.title') + ' · LMS';
+  const draw = () => {
+    const q = root.querySelector('input').value.trim().toLocaleLowerCase();
+    const shown = books.filter(book => [book.course, l(book.title), l(book.description)].join(' ').toLocaleLowerCase().includes(q));
+    root.querySelector('#materials-results').innerHTML = shown.length ? renderGridPageLayout(shown, renderBookCard) : renderNotification(t('materials.empty'));
+  };
+  root.querySelector('input').oninput = draw;
+  root.addEventListener('click', event => {
+    const button = event.target.closest('[data-book]');
+    if (button) openPdfModal(books.find(book => book.id === button.dataset.book));
   });
+  draw();
 }

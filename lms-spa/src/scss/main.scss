@@ -4,6 +4,10 @@
   $family-primary: '"Segoe UI", Arial, sans-serif'
 );
 
+@use "components/overview";
+@use "components/calculation";
+@use "components/materials";
+@use "components/footer";
 :root { color-scheme: light; }
 .search-shell { display: grid; grid-template-columns: 245px minmax(0, 1fr); gap: 26px; align-items: start; }
 .search-shell > * { min-width: 0; }

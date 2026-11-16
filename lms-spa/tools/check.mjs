@@ -13,5 +13,5 @@ async function check(dir) {
     }
   }
 }
-await check('src/js'); await check('tools');
+await check('src/js'); await check('src/tools'); await check('tools');
 console.log('Syntax and module imports passed.');

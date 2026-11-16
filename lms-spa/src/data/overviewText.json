@@ -1,0 +1,24 @@
+{
+  "title": {
+    "mn": "Суралцах үйл явцаа төлөвлөе",
+    "en": "Plan your learning"
+  },
+  "body": {
+    "mn": "Хичээлүүдээ мэргэжлээр нь сонгон судалж, өөрийн оноогоор дүнгийн тооцоо хийнэ. Сургалтын материалын хэсгээс PDF удирдамжуудыг үзэж болно.",
+    "en": "Explore courses by study area, calculate grades using your own scores and open PDF learning guides."
+  },
+  "points": [
+    {
+      "mn": "Мэргэжлийн зураглал болон сонгосон хичээлийн хайлт",
+      "en": "Interactive study area map and selected-course search"
+    },
+    {
+      "mn": "Хоёр загвартай жинлэсэн дүнгийн тооцоолол",
+      "en": "Weighted grade calculations with two assessment schemes"
+    },
+    {
+      "mn": "Монгол, Англи хэлээр ажиллах интерфейс",
+      "en": "Interface available in Mongolian and English"
+    }
+  ]
+}

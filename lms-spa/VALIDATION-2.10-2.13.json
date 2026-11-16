@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-16",
+  "passed": 15,
+  "results": [
+    "2.10 overview statistics and SVG",
+    "2.10 department modal and course selection to search",
+    "2.10 keyboard map and empty selection validation",
+    "2.11 empty calculator and add course",
+    "2.11 component weights and scheme change",
+    "2.11 invalid inputs are not accepted",
+    "2.11 saved calculator persists through reload and language",
+    "2.11 add remove and zero courses",
+    "2.12 resource cards and search",
+    "2.12 PDF modal real files and download",
+    "2.13 footer links translation and all routes",
+    "2.6–2.9 search filters images and language retained",
+    "mobile dashboard calculator and materials do not overflow",
+    "404 and async error retry",
+    "no uncaught errors or missing assets"
+  ],
+  "errors": [],
+  "screenshots": false
+}

@@ -1,16 +1,17 @@
 {
-  "name": "con354-lms-chapters-2-1-to-2-5",
-  "version": "1.1.0",
+  "name": "con354-lms-spa",
+  "version": "1.2.0",
   "private": true,
   "type": "module",
-  "description": "LMS SPA extended through book sections 2.1–2.9",
+  "description": "LMS SPA based on sections 2.1–2.13",
   "scripts": {
     "start": "node tools/serve.mjs",
     "sass": "sass --load-path=node_modules --watch src/scss/main.scss src/css/main.css",
     "build": "npm run build:data && npm run build:images && sass --load-path=node_modules --quiet-deps --no-source-map src/scss/main.scss src/css/main.css",
     "check": "node tools/check.mjs",
     "build:data": "node src/tools/convertCoursesEnMn.js",
-    "build:images": "node src/tools/generate-images-json.mjs"
+    "build:images": "node src/tools/generate-images-json.mjs",
+    "test": "node --test tests/*.test.mjs"
   },
   "devDependencies": {
     "bulma": "1.0.4",

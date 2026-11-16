@@ -1,4 +1,4 @@
-// 2.5, 2.9: UI орчуулга
+// UI translations for sections 2.1–2.13
 export const translations = {
   "mn": {
     "nav": {
@@ -6,9 +6,9 @@ export const translations = {
       "brand": "Сургалтын удирдлагын систем",
       "subtitle": "ХААИС · CON354",
       "menu": "Цэс нээх",
-      "overview": "Танилцуулга",
+      "overview": "Хяналтын самбар",
       "search": "Хичээлүүд",
-      "calculation": "Үнэлгээ",
+      "calculation": "Дүнгийн тооцоолуур",
       "books": "Материал",
       "contact": "Холбоо барих",
       "language": "EN",
@@ -16,7 +16,7 @@ export const translations = {
     },
     "common": {
       "view": "Хуудас нээх",
-      "scope": "Номын 2.1–2.9: SPA бүтэц, JSON үйлчилгээ, хайлт, зураг, хоёр хэлний өгөгдөл."
+      "scope": "Номын 2.1–2.13 хэсэгт тулгуурласан LMS сэдэв."
     },
     "overview": {
       "title": "Сургалтын мэдээллээ нэг дороос",
@@ -114,6 +114,57 @@ export const translations = {
       "empty": "Тохирох хичээл олдсонгүй.",
       "error": "Өгөгдлийг ачаалж чадсангүй.",
       "retry": "Дахин оролдох"
+    },
+    "dashboard": {
+      "title": "Хяналтын самбар",
+      "subtitle": "Хичээл, мэргэжил, үнэлгээ, сургалтын материалаа нэг дороос удирдах.",
+      "courses": "Хичээл",
+      "departments": "Мэргэжил",
+      "credits": "Нийт кредит",
+      "materials": "PDF материал",
+      "mapTitle": "Мэргэжлийн зураглал",
+      "mapHelp": "Чиглэл дээр дарж тухайн мэргэжлийн хичээлүүдийг сонгоно уу.",
+      "chooseCourses": "Хайлт руу шилжүүлэх хичээлүүдээ сонгоно уу.",
+      "viewSelection": "Сонгосон хичээлүүдийг харах",
+      "selectOne": "Дор хаяж нэг хичээл сонгоно уу.",
+      "formats": "Хичээлийн хэлбэрүүд"
+    },
+    "grade": {
+      "title": "Дүнгийн тооцоолуур",
+      "subtitle": "Хичээлээ сонгоод бүрэлдэхүүн тус бүрийн 0–100 хувийн оноог оруулна.",
+      "selectCourses": "Тооцох хичээлүүд",
+      "scheme": "Үнэлгээний загвар",
+      "policyNote": "A ≥ 90, B ≥ 80, C ≥ 70, D ≥ 60, F < 60. Төслийн жишээ дүрэм.",
+      "emptyTitle": "Хичээл сонгоогүй байна",
+      "emptyText": "Хажуугийн жагсаалтаас хичээл сонгож тооцооллоо эхлүүлнэ үү.",
+      "midterm": "Явц",
+      "labs": "Лаборатори",
+      "homework": "Бие даалт",
+      "final": "Шалгалт",
+      "total": "Нийт",
+      "remove": "Хасах",
+      "invalid": "0–100 хооронд хүчинтэй оноо оруулна уу.",
+      "gpa": "Кредитээр жинлэсэн голч",
+      "passed": "Тэнцсэн",
+      "save": "Хадгалах",
+      "saved": "Энэ браузерт хадгаллаа.",
+      "saveError": "Утгаа шалгана уу. Браузерын хадгалалт хаалттай байж болно.",
+      "localNotice": "Тооцоолол зөвхөн энэ браузерт хадгалагдана."
+    },
+    "materials": {
+      "title": "Сургалтын материал",
+      "subtitle": "Төслийн хүрээнд бэлтгэсэн PDF удирдамжууд.",
+      "placeholder": "Хичээлийн код эсвэл нэрээр хайх…",
+      "view": "PDF үзэх",
+      "download": "PDF татах",
+      "viewerHint": "PDF харагч дэмжигдэхгүй бол файлыг татаж нээнэ үү.",
+      "empty": "Тохирох материал олдсонгүй."
+    },
+    "footer": {
+      "description": "Vanilla JavaScript, Bulma, Sass ашигласан сургалтын удирдлагын SPA төсөл.",
+      "navigation": "Үндсэн холбоосууд",
+      "project": "Төслийн мэдээлэл",
+      "scope": "Номын 2.1–2.13 хэсэгт тулгуурласан LMS сэдэв."
     }
   },
   "en": {
@@ -122,9 +173,9 @@ export const translations = {
       "brand": "Learning Management System",
       "subtitle": "MULS · CON354",
       "menu": "Open menu",
-      "overview": "Overview",
+      "overview": "Dashboard",
       "search": "Courses",
-      "calculation": "Assessment",
+      "calculation": "Grade calculator",
       "books": "Resources",
       "contact": "Contact",
       "language": "MN",
@@ -132,7 +183,7 @@ export const translations = {
     },
     "common": {
       "view": "Open page",
-      "scope": "Sections 2.1–2.9: SPA structure, JSON services, search, images and bilingual data."
+      "scope": "LMS adaptation of book sections 2.1–2.13."
     },
     "overview": {
       "title": "Your learning information in one place",
@@ -230,6 +281,57 @@ export const translations = {
       "empty": "No matching courses found.",
       "error": "Unable to load data.",
       "retry": "Retry"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "subtitle": "Explore courses, study areas, grades and learning resources.",
+      "courses": "Courses",
+      "departments": "Departments",
+      "credits": "Total credits",
+      "materials": "PDF resources",
+      "mapTitle": "Study area map",
+      "mapHelp": "Choose a study area to select its courses.",
+      "chooseCourses": "Select the courses to display in search.",
+      "viewSelection": "View selected courses",
+      "selectOne": "Select at least one course.",
+      "formats": "Course formats"
+    },
+    "grade": {
+      "title": "Grade calculator",
+      "subtitle": "Select courses and enter each component score as a percentage from 0 to 100.",
+      "selectCourses": "Courses to calculate",
+      "scheme": "Grading scheme",
+      "policyNote": "A ≥ 90, B ≥ 80, C ≥ 70, D ≥ 60, F < 60. Sample project policy.",
+      "emptyTitle": "No courses selected",
+      "emptyText": "Choose a course from the list to start calculating.",
+      "midterm": "Midterm",
+      "labs": "Labs",
+      "homework": "Coursework",
+      "final": "Final",
+      "total": "Total",
+      "remove": "Remove",
+      "invalid": "Enter a valid score from 0 to 100.",
+      "gpa": "Credit-weighted GPA",
+      "passed": "Passed",
+      "save": "Save",
+      "saved": "Saved in this browser.",
+      "saveError": "Check the scores. Browser storage may be unavailable.",
+      "localNotice": "Calculations are stored in this browser only."
+    },
+    "materials": {
+      "title": "Learning resources",
+      "subtitle": "PDF guides prepared for this project.",
+      "placeholder": "Search course code or resource name…",
+      "view": "View PDF",
+      "download": "Download PDF",
+      "viewerHint": "If your browser cannot display the PDF, download and open the file.",
+      "empty": "No matching resources found."
+    },
+    "footer": {
+      "description": "A learning management SPA built with Vanilla JavaScript, Bulma and Sass.",
+      "navigation": "Navigation",
+      "project": "Project information",
+      "scope": "LMS adaptation of book sections 2.1–2.13."
     }
   }
 };

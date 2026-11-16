@@ -6,6 +6,7 @@ export function initRouter(routes) {
     controller?.abort(); controller = new AbortController();
     const signal = controller.signal;
     document.getElementById('image-modal-root')?.replaceChildren();
+    document.getElementById('dialog-root')?.replaceChildren();
     const url = new URL(window.location.hash.slice(1) || '/overview', 'https://local.invalid');
     const hash = '#' + url.pathname;
     const page = routes[hash] || routes['#/404'];

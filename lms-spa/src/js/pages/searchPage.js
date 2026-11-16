@@ -21,6 +21,7 @@ export async function renderSearchPage({ signal, params }) {
   if (signal.aborted) return;
   const columns = ['teacher','credits','room','updated'];
   const state = {
+    ids: (params.get('ids') || '').split(',').filter(id => courses.some(course => course.id === id)),
     query: params.get('q') || '',
     type: ['lecture','practice','lab'].includes(params.get('type')) ? params.get('type') : 'all',
     departments: params.getAll('department').filter(v => ['software','systems'].includes(v)),
@@ -31,12 +32,16 @@ export async function renderSearchPage({ signal, params }) {
   section.innerHTML = renderPageLayout({ id: 'search', title: t('search.title'), subtitle: t('search.subtitle'), content: `<button id="toggle-filters" class="button is-light mobile-filter-button" type="button" aria-controls="search-sidebar" aria-expanded="false">${t('filters.show')}</button>` + renderSidebarPageLayout({ sidebarContent: `<form id="course-filters"><h2 class="filter-heading">${t('filters.heading')}</h2>${renderSearchCourseName(state)}${renderCourseGroupList(state)}${renderSearchSettings(state)}</form>`, mainContent: `<div class="results-heading"><strong id="results-count" aria-live="polite"></strong><span>${t('filters.source')}</span></div><div id="course-results"></div>` }) });
   app.replaceChildren(section);
   const form = section.querySelector('form');
+  const idsInput = document.createElement('input');
+  idsInput.type = 'hidden'; idsInput.name = 'ids'; idsInput.value = state.ids.join(',');
+  form.append(idsInput);
   const update = () => {
     const current = readSearchState(form);
     const shown = filterCourses(courses, current);
     section.querySelector('#course-results').innerHTML = renderCourseTables(shown, current.columns);
     section.querySelector('#results-count').textContent = `${shown.length} / ${courses.length} ${t('filters.results')}`;
     const query = new URLSearchParams({ q: current.query, type: current.type, sort: current.sort, columns: current.columns.join(',') });
+    if (current.ids.length) query.set('ids', current.ids.join(','));
     current.departments.forEach(value => query.append('department', value));
     history.replaceState(null, '', '#/search?' + query.toString());
   };
@@ -44,6 +49,7 @@ export async function renderSearchPage({ signal, params }) {
   form.onsubmit = ev => ev.preventDefault();
   form.onreset = ev => {
     ev.preventDefault(); form.elements.query.value = ''; form.elements.type.value = 'all'; form.elements.sort.value = 'code';
+    form.elements.ids.value = '';
     form.querySelectorAll('[name="department"]').forEach(el => { el.checked = false; });
     form.querySelectorAll('[name="column"]').forEach(el => { el.checked = ['teacher','credits'].includes(el.value); });
     update();
