@@ -5,7 +5,7 @@ import { button, input, toast, listen } from '../components/ui.js';
 import { escapeHtml as e } from '../fn/format.js';
 export async function renderMessagesPage({ root, signal }) {
   let messages = await getMessages(); if (signal.aborted) return;
-  const contacts = [['teacher', 'Б. Анар', t('teacher')], ['office', 'ХААИС', t('faculty')], ['group', 'ПХ-21 / МС-22', t('group')]];
+  const contacts = [['teacher', 'М.Анхбаяр', t('teacher')], ['office', 'ХААИС', t('faculty')], ['group', 'ПХ-21 / МС-22', t('group')]];
   let contact = 'teacher';
   root.innerHTML = renderPageLayout({ title: t('messages'), subtitle: t('localChat'), content: `<div class="chat-layout panel-card flush"><aside class="chat-contacts">${contacts.map(([id, name, role]) => `<button data-contact="${id}"><span class="avatar">${e(name.slice(0, 2))}</span><span><strong>${e(name)}</strong><small>${e(role)}</small></span></button>`).join('')}</aside><section class="chat-main"><div class="panel-heading"><h2 id="chat-title"></h2></div><div id="chat-history" class="chat-history" role="log" aria-live="polite"></div><form id="message-form" class="chat-compose">${input('text', '', 'text', `required maxlength="2000" autocomplete="off" aria-label="${t('message')}" placeholder="${t('message')}…"`)}${button(t('send'), 'type="submit"')}</form></section></div>` });
   const draw = () => {
