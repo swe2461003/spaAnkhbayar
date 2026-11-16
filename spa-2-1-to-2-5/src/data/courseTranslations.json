@@ -1,0 +1,62 @@
+{
+  "CON354": {
+    "name": {
+      "mn": "Программ хангамжийн бүтээлт",
+      "en": "Software Construction"
+    },
+    "description": {
+      "mn": "Программ хангамжийн бүтээлт хичээлээр онол, дадлага болон бие даалтын ажлыг хослуулан судална.",
+      "en": "Software Construction combines theory, guided practice and independent assignments."
+    }
+  },
+  "CS101": {
+    "name": {
+      "mn": "Программчлалын үндэс",
+      "en": "Programming Fundamentals"
+    },
+    "description": {
+      "mn": "Программчлалын үндэс хичээлээр онол, дадлага болон бие даалтын ажлыг хослуулан судална.",
+      "en": "Programming Fundamentals combines theory, guided practice and independent assignments."
+    }
+  },
+  "IS202": {
+    "name": {
+      "mn": "Мэдээллийн систем",
+      "en": "Information Systems"
+    },
+    "description": {
+      "mn": "Мэдээллийн систем хичээлээр онол, дадлага болон бие даалтын ажлыг хослуулан судална.",
+      "en": "Information Systems combines theory, guided practice and independent assignments."
+    }
+  },
+  "CS203": {
+    "name": {
+      "mn": "Алгоритм ба өгөгдлийн бүтэц",
+      "en": "Algorithms and Data Structures"
+    },
+    "description": {
+      "mn": "Алгоритм ба өгөгдлийн бүтэц хичээлээр онол, дадлага болон бие даалтын ажлыг хослуулан судална.",
+      "en": "Algorithms and Data Structures combines theory, guided practice and independent assignments."
+    }
+  },
+  "DB201": {
+    "name": {
+      "mn": "Өгөгдлийн сан",
+      "en": "Databases"
+    },
+    "description": {
+      "mn": "Өгөгдлийн сан хичээлээр онол, дадлага болон бие даалтын ажлыг хослуулан судална.",
+      "en": "Databases combines theory, guided practice and independent assignments."
+    }
+  },
+  "WEB301": {
+    "name": {
+      "mn": "Вэб хөгжүүлэлт",
+      "en": "Web Development"
+    },
+    "description": {
+      "mn": "Вэб хөгжүүлэлт хичээлээр онол, дадлага болон бие даалтын ажлыг хослуулан судална.",
+      "en": "Web Development combines theory, guided practice and independent assignments."
+    }
+  }
+}

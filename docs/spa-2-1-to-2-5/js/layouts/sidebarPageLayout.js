@@ -1,0 +1,1 @@
+export const renderSidebarPageLayout = ({ sidebarContent, mainContent }) => `<div class="search-shell"><aside id="search-sidebar" class="box search-sidebar">${sidebarContent}</aside><div class="search-main">${mainContent}</div></div>`;

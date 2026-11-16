@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CON354",
+    "name": {
+      "mn": "Программ хангамжийн бүтээлт",
+      "en": "Software Construction"
+    },
+    "department": "software",
+    "type": "lab",
+    "teacher": "Б. Анар",
+    "group": "ПХ-21",
+    "room": "Лаб-1",
+    "day": 1,
+    "time": "09:00–10:30",
+    "credits": 3,
+    "description": {
+      "mn": "Программ хангамжийн бүтээлт хичээлээр онол, дадлага болон бие даалтын ажлыг хослуулан судална.",
+      "en": "Software Construction combines theory, guided practice and independent assignments."
+    },
+    "progress": 75,
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "CS101",
+    "name": {
+      "mn": "Программчлалын үндэс",
+      "en": "Programming Fundamentals"
+    },
+    "department": "software",
+    "type": "lecture",
+    "teacher": "Д. Болд",
+    "group": "ПХ-21",
+    "room": "304",
+    "day": 2,
+    "time": "11:00–12:30",
+    "credits": 3,
+    "description": {
+      "mn": "Программчлалын үндэс хичээлээр онол, дадлага болон бие даалтын ажлыг хослуулан судална.",
+      "en": "Programming Fundamentals combines theory, guided practice and independent assignments."
+    },
+    "progress": 82,
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "IS202",
+    "name": {
+      "mn": "Мэдээллийн систем",
+      "en": "Information Systems"
+    },
+    "department": "systems",
+    "type": "lecture",
+    "teacher": "С. Оюун",
+    "group": "МС-22",
+    "room": "402",
+    "day": 3,
+    "time": "09:00–10:30",
+    "credits": 3,
+    "description": {
+      "mn": "Мэдээллийн систем хичээлээр онол, дадлага болон бие даалтын ажлыг хослуулан судална.",
+      "en": "Information Systems combines theory, guided practice and independent assignments."
+    },
+    "progress": 60,
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "CS203",
+    "name": {
+      "mn": "Алгоритм ба өгөгдлийн бүтэц",
+      "en": "Algorithms and Data Structures"
+    },
+    "department": "software",
+    "type": "lecture",
+    "teacher": "Н. Энх",
+    "group": "ПХ-21",
+    "room": "301",
+    "day": 4,
+    "time": "13:00–14:30",
+    "credits": 3,
+    "description": {
+      "mn": "Алгоритм ба өгөгдлийн бүтэц хичээлээр онол, дадлага болон бие даалтын ажлыг хослуулан судална.",
+      "en": "Algorithms and Data Structures combines theory, guided practice and independent assignments."
+    },
+    "progress": 68,
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "DB201",
+    "name": {
+      "mn": "Өгөгдлийн сан",
+      "en": "Databases"
+    },
+    "department": "systems",
+    "type": "practice",
+    "teacher": "Т. Саруул",
+    "group": "МС-22",
+    "room": "305",
+    "day": 5,
+    "time": "14:00–15:30",
+    "credits": 3,
+    "description": {
+      "mn": "Өгөгдлийн сан хичээлээр онол, дадлага болон бие даалтын ажлыг хослуулан судална.",
+      "en": "Databases combines theory, guided practice and independent assignments."
+    },
+    "progress": 90,
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "WEB301",
+    "name": {
+      "mn": "Вэб хөгжүүлэлт",
+      "en": "Web Development"
+    },
+    "department": "systems",
+    "type": "lab",
+    "teacher": "Б. Анар",
+    "group": "МС-22",
+    "room": "Лаб-2",
+    "day": 1,
+    "time": "15:00–16:30",
+    "credits": 3,
+    "description": {
+      "mn": "Вэб хөгжүүлэлт хичээлээр онол, дадлага болон бие даалтын ажлыг хослуулан судална.",
+      "en": "Web Development combines theory, guided practice and independent assignments."
+    },
+    "progress": 55,
+    "updated": "2026-11-16"
+  }
+]

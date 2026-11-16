@@ -1,4 +1,4 @@
-// 2.5: Бүх хуудасны тогтмол текстийг хоёр хэлээр хадгална.
+// 2.5, 2.9: UI орчуулга
 export const translations = {
   "mn": {
     "nav": {
@@ -16,7 +16,7 @@ export const translations = {
     },
     "common": {
       "view": "Хуудас нээх",
-      "scope": "Энэ хувилбар нь номын 2.1–2.5 хэсгийн SPA суурь, хуудасны бүтэц, цэс, хэл солих ажлыг хамарна."
+      "scope": "Номын 2.1–2.9: SPA бүтэц, JSON үйлчилгээ, хайлт, зураг, хоёр хэлний өгөгдөл."
     },
     "overview": {
       "title": "Сургалтын мэдээллээ нэг дороос",
@@ -29,7 +29,7 @@ export const translations = {
     },
     "search": {
       "title": "Хичээлүүд",
-      "subtitle": "Программ хангамж болон мэдээллийн системийн сургалтын чиглэл.",
+      "subtitle": "Хичээлээ нэр, код, багшаар хайж, мэргэжил болон хэлбэрээр шүүнэ.",
       "description": "Хичээлийн нэр, код болон хэлбэрийг танилцуулах хуудас.",
       "code": "Код",
       "name": "Хичээлийн нэр",
@@ -40,7 +40,7 @@ export const translations = {
       "lecture": "Лекц",
       "lab": "Лаборатори",
       "practice": "Практик",
-      "note": "Энэ хэсэгт танилцуулгын тогтмол мэдээлэл ашиглав. JSON services болон хайлтын шүүлтүүр нь номын 2.6–2.7 хэсэгт хамаарах тул энэ хувилбарт оруулаагүй."
+      "note": "JSON мэдээллийг services давхаргаар ачаалж, хайлт болон зураг харах боломжтой."
     },
     "calculation": {
       "title": "Үнэлгээний бүтэц",
@@ -81,6 +81,39 @@ export const translations = {
       "subtitle": "Таны сонгосон хаяг системд бүртгэгдээгүй байна.",
       "message": "Үндсэн цэсээс хуудас сонгох эсвэл танилцуулга руу буцна уу.",
       "back": "Танилцуулга руу буцах"
+    },
+    "filters": {
+      "heading": "Хайлт ба шүүлтүүр",
+      "query": "Хайх",
+      "placeholder": "Код, нэр, багшаар хайх…",
+      "type": "Хичээлийн хэлбэр",
+      "all": "Бүгд",
+      "lecture": "Лекц",
+      "practice": "Практик",
+      "lab": "Лаборатори",
+      "department": "Мэргэжил",
+      "software": "Программ хангамж",
+      "systems": "Мэдээллийн систем",
+      "columns": "Харуулах баганууд",
+      "teacher": "Багш",
+      "credits": "Кредит",
+      "room": "Өрөө",
+      "updated": "Шинэчилсэн",
+      "sort": "Эрэмбэлэх",
+      "clear": "Цэвэрлэх",
+      "image": "Зураг",
+      "view": "Харах",
+      "close": "Хаах",
+      "previous": "Өмнөх",
+      "next": "Дараах",
+      "show": "Шүүлтүүр нээх",
+      "hide": "Шүүлтүүр хаах",
+      "results": "хичээл",
+      "source": "JSON өгөгдөл",
+      "loading": "Өгөгдөл ачаалж байна…",
+      "empty": "Тохирох хичээл олдсонгүй.",
+      "error": "Өгөгдлийг ачаалж чадсангүй.",
+      "retry": "Дахин оролдох"
     }
   },
   "en": {
@@ -99,7 +132,7 @@ export const translations = {
     },
     "common": {
       "view": "Open page",
-      "scope": "This version covers the SPA foundation, page structure, navigation and language switching in sections 2.1–2.5."
+      "scope": "Sections 2.1–2.9: SPA structure, JSON services, search, images and bilingual data."
     },
     "overview": {
       "title": "Your learning information in one place",
@@ -112,7 +145,7 @@ export const translations = {
     },
     "search": {
       "title": "Courses",
-      "subtitle": "Software engineering and information systems study areas.",
+      "subtitle": "Find courses by name, code or teacher and filter by department or format.",
       "description": "An introduction to course names, codes and delivery formats.",
       "code": "Code",
       "name": "Course name",
@@ -123,7 +156,7 @@ export const translations = {
       "lecture": "Lecture",
       "lab": "Laboratory",
       "practice": "Practice",
-      "note": "This page uses fixed introductory content. JSON services and search filters belong to sections 2.6–2.7 and are outside this version."
+      "note": "JSON information is loaded through services with search and image viewing."
     },
     "calculation": {
       "title": "Assessment structure",
@@ -164,6 +197,39 @@ export const translations = {
       "subtitle": "The requested address is not registered in this application.",
       "message": "Choose a page from the navigation or return to the overview.",
       "back": "Back to overview"
+    },
+    "filters": {
+      "heading": "Search and filters",
+      "query": "Search",
+      "placeholder": "Search code, name or teacher…",
+      "type": "Course format",
+      "all": "All",
+      "lecture": "Lecture",
+      "practice": "Practice",
+      "lab": "Laboratory",
+      "department": "Department",
+      "software": "Software engineering",
+      "systems": "Information systems",
+      "columns": "Visible columns",
+      "teacher": "Teacher",
+      "credits": "Credits",
+      "room": "Room",
+      "updated": "Updated",
+      "sort": "Sort by",
+      "clear": "Clear",
+      "image": "Images",
+      "view": "View",
+      "close": "Close",
+      "previous": "Previous",
+      "next": "Next",
+      "show": "Show filters",
+      "hide": "Hide filters",
+      "results": "courses",
+      "source": "JSON data",
+      "loading": "Loading data…",
+      "empty": "No matching courses found.",
+      "error": "Unable to load data.",
+      "retry": "Retry"
     }
   }
 };

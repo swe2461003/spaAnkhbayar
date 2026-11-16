@@ -1,87 +1,58 @@
-# CON354 LMS SPA 2.1–2.5
+# CON354 LMS SPA 2.1–2.9
 
-**[Веб системийг нээх](https://swe2461003.github.io/spaAnkhbayar/spa-2-1-to-2-5/#/overview)**
+**[Веб системийг нээх](https://swe2461003.github.io/spaAnkhbayar/spa-2-1-to-2-5/#/search)**
 
-Энэ холбоос браузерт ажиллах SPA-г нээнэ. GitHub-ийн src/index.html файл дээр дарахад веб ажиллахын оронд эх код харагдана.
+Өмнөх 2.1–2.5 төслийн **ижил хавтас, ижил URL** дээр номын 2.6–2.9 хэсгийг нэмж хийсэн. Тиймээс хавтасны нэр `spa-2-1-to-2-5` хэвээр боловч одоогийн код 2.9 хүртэлх ажлыг агуулна. Repository-ийн үндсэн бүрэн LMS төсөлд өөрчлөлт оруулаагүй. Өмнөх 2.1–2.5 код Git history-д хадгалагдана.
 
-“Хүнсний найрлагын мэдээллийн сангаар Single Page Application бүтээх төсөл” номын зөвхөн **2.1–2.5** хэсгийг **сургалтын удирдлагын систем буюу LMS** сэдвээр өөрчилсөн, бие даасан төсөл.
+## Шинээр хийсэн ажил
 
-Өмнө хийсэн бүрэн LMS төсөлтэй код, session болон хэлний тохиргоо хуваалцахгүй. Энэ хавтас нь шинэ ажил бөгөөд хуучин төслийг орлохгүй.
+| Хэсэг | LMS сэдэвт тохируулсан ажил | Гол файл |
+| --- | --- | --- |
+| 2.6 | JSON өгөгдөл, config, кэштэй service, loading/error/retry | config.js, services/courseService.js |
+| 2.7 | Нэр/код/багшийн хайлт, мэргэжил/төрөл, багана, эрэмбэ, хоосон төлөв, mobile sidebar | pages/searchPage.js, fn/courseSearchEvents.js, components/search* |
+| 2.8 | Зургийн manifest үүсгэх, кодоор зураг олох, олон зурагтай modal, өмнөх/дараах/Escape | tools/generate-images-json.mjs, services/imageService.js, components/imageModal.js |
+| 2.9 | MN/EN JSON хувиргалт, localized нэр/тайлбар/огноо, хайлтын төлөв хадгалах | tools/convertCoursesEnMn.js, i18n/i18n.js |
 
 ## Ажиллуулах
 
-Node.js 20 буюу түүнээс дээш хувилбарт:
+Node.js 20+ суусан орчинд:
 
 ```sh
 npm ci
+npm run build
 npm start
 ```
 
-**http://127.0.0.1:4175** хаягийг нээнэ. Бэлэн CSS хавсаргасан тул зөвхөн харах бол `node tools/serve.mjs` эсвэл `START-SPA.cmd` ажиллуулахад болно. `src/index.html`-ийг file:// хаягаар нээхгүй, HTTP сервер ашиглана.
+http://127.0.0.1:4175/#/search хаягийг нээнэ. Хөрвүүлсэн CSS, өгөгдөл, зургийн manifest бэлэн тул зөвхөн харах бол `node tools/serve.mjs` ажиллуулж болно.
 
 ```sh
-npm run sass   # SCSS өөрчлөлтийг автоматаар хөрвүүлэх
-npm run build  # CSS үүсгэх
-npm run check  # Syntax ба import шалгах
+npm run sass          # SCSS watch
+npm run build:data    # courses.json + courseTranslations.json → coursesEnMn.json
+npm run build:images  # img/courses → images.json
+npm run check        # Syntax, module import
+node src/tools/searchUniqueField.js department
 ```
 
-## Номын дараалал
+## Өгөгдөл ба шүүлтүүр
 
-| Хэсэг | Хийсэн ажил | Гол файлууд |
-| --- | --- | --- |
-| 2.1 | Hash router бүхий SPA суурь | index.html, app.js, router.js, routes.js |
-| 2.2 | Хуудас бүрийг тусдаа файл болгох | src/js/pages/ дотор 6 файл |
-| 2.3 | Нийтлэг renderPageLayout | src/js/layouts/pageLayout.js |
-| 2.4 | Navbar, mobile burger, идэвхтэй холбоос | components/navbar.js, scss/main.scss |
-| 2.5 | Монгол Англи хэл солих, хадгалах | i18n/translations.js, i18n/i18n.js |
+6 жишээ хичээлтэй. Хүнсний нэрийг хичээлийн нэр, бүлгийг мэргэжил, найрлагын төрлийн сонголтыг харагдах баганууд болгон өөрчилсөн. Хоёр мэргэжлийг зэрэг сонгож болно; мэргэжил сонгоогүй бол бүгдийг харуулна. Нэрийн хайлт Монгол, Англи нэр, код болон багшийн нэрийг шалгана. Үр дүнг код эсвэл сонгосон хэлний нэрээр эрэмбэлнэ.
 
-Номын үндсэн замуудыг хадгалж, агуулгыг өөрчилсөн:
+Хайлтын нөхцөл URL query-д хадгалагдана. Хэл солиход одоогийн хайлт, багана, шүүлтүүр үлдэнэ. Хэлний сонголт `con354.chapters21to25.language` түлхүүрт хадгалагддаг тул өмнөх бүрэн LMS-ийн тохиргоонд хүрэхгүй.
 
-- `#/overview` — LMS танилцуулга.
-- `#/search` — хичээлийн жагсаалтын танилцуулга.
-- `#/calculation` — үнэлгээний бүтцийн танилцуулга.
-- `#/books` — сургалтын материалын ангилал.
-- `#/contact` — холбоо барих мэдээллийн хуудас.
-- `#/404` болон танигдаагүй зам — хуудас олдсонгүй.
+JSON эх өгөгдөл `courses.json`, гар аргаар бэлдсэн хоёр хэлний dictionary `courseTranslations.json`, үүссэн файл `coursesEnMn.json`. Орчуулгын мэдээлэл дутуу бол converter алдаа өгдөг. Автоматаар зохиомол орчуулга үүсгэхгүй. Өөрийн сервертэй холбох бол config.js дэх DATA_MODE ба API_COURSES_URL-ийг тохируулна; одоогийн төсөл local JSON ашиглана.
 
-## Кодын бүтэц
+Зургийг `src/img/courses/CON354.svg`, `CON354__2.svg` гэх мэт кодоор нэрлээд `npm run build:images` ажиллуулна. 6 хичээлд 7 SVG зураг хавсаргасан. SVG-үүд нь төслийн хичээлийн дүрслэл, бодит лекцийн screenshot биш. Зургийн цонх өмнөх/дараах товч, сумтай товчлуур, Escape, focus буцаах боломжтой.
 
-```text
-src/
-  index.html
-  js/
-    app.js
-    router.js
-    routes.js
-    pages/
-      overviewPage.js
-      searchPage.js
-      calculationPage.js
-      booksPage.js
-      contactPage.js
-      notFoundPage.js
-    layouts/pageLayout.js
-    components/navbar.js
-    i18n/
-      i18n.js
-      translations.js
-  scss/main.scss
-  css/main.css
-tools/
-  serve.mjs
-  check.mjs
-```
+## Кодын урсгал
 
-`app.js` navbar-ийг холбож router-ийг эхлүүлнэ. `routes.js` замыг page function-той холбодог. `router.js` hash өөрчлөгдөхөд тохирох page-ийг зурна. Page бүр `renderPageLayout()` ашиглаж ижил байрлалтай гарна. `navbar.js` нь цэс болон хэл солих товчийг удирдана. `t('nav.overview')` зэрэг dot path нь орчуулгын объектын утгыг авна. Хэл солиход номын жишээтэй адил хуудас дахин ачаалж, одоогийн hash хэвээр үлдэнэ.
+`router → searchPage → courseService/imageService → filterCourses → courseTables/tableLayout`.
 
-Өмнөх төслийн хэлний түлхүүрт хүрэхгүйгээр `con354.chapters21to25.language` түлхүүр ашиглана. Bulma 1.0.4, Sass 1.93.2-ыг ашигласан. Хуучирсан Sass `@import`-ын оронд `@use` хэрэглэсэн.
+Page нь өгөгдлийн замыг шууд fetch хийхгүй. Services нь JSON ба кэшийг удирдана. Layout/component нь дүрслэл, fn нь хайлтын дүрэм болон HTML escape-ийг хариуцна. Async route солигдсон үед хуучин хүсэлтийн үр дүн шинэ page-ийг дарахгүй. Хэрэглэгчийн бичвэрийг HTML болгон ажиллуулахгүй.
 
-## Энэ хувилбарын хүрээ
+## Хүрээ ба шалгалт
 
-Хуудасны агуулга нь тогтмол мэдээлэл. 2.6–2.13 хэсгийн services, JSON fetch, хайлтын шүүлтүүр, зураг/PDF modal, дүн бодох, ирц/журнал, мессеж, архив, footer component нэмээгүй. Үнэлгээ болон материалын хуудсууд дээр ажиллагаагүй form эсвэл татах товч байрлуулаагүй.
+2.1–2.5-ын router, таван page, 404, layout, navbar хэвээр. 2.10–2.13-ын Dashboard шинэчлэл, дүнгийн тооцоолуур, PDF болон footer-ийн нэмэлт ажлыг энэ шатанд хийгээгүй. Үнэлгээ, материалын хуудсууд одоогоор танилцуулга хэвээр.
 
-## GitHub дахь тусгаарлалт
+`VALIDATION-2.6-2.9.json` файлд 2026-11-16-нд гүйцэтгэсэн 11 браузерын шалгалтын үр дүн бий. Шинэ хайлт, давхар шүүлтүүр, багана, зураг, хэл/огноо, refresh, өмнөх pages, mobile sidebar, error/retry, async route болон asset-ийг хамруулсан. Хэрэглэгчийн хүсэлтээр screenshot аваагүй.
 
-Шинэ эх кодыг repository-ийн `spa-2-1-to-2-5/` хавтаст, браузерт ажиллах хувилбарыг `docs/spa-2-1-to-2-5/` хавтаст **шинээр нэмнэ**. Өмнө байсан файлуудыг сольж бичихгүй.
-
-Эх заавар: Дэмбэрэлийн Оргил, 2026/06/01. Номын хүнсний өгөгдөл, нэршил, хуудасны агуулгыг LMS сэдвээр өөрчилсөн. Bulma-ийн MIT лицензийг `licenses/BULMA-LICENSE` файлд хадгалсан.
+Эх заавар: Дэмбэрэлийн Оргилын 2026/06/01-ний SPA бүтээх төслийн ном. Bulma 1.0.4 (MIT), Sass 1.93.2 (MIT). Bulma лиценз `licenses/BULMA-LICENSE`-д бий.

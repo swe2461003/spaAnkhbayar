@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-16",
+  "passed": 11,
+  "results": [
+    "2.6 JSON service loads 6 courses",
+    "2.7 name and code search",
+    "2.7 combined department and type filters",
+    "2.7 selectable columns and empty state",
+    "2.8 image modal previous next Escape",
+    "2.9 language changes data and dates while preserving filters",
+    "2.1–2.5 existing pages and 404 remain available",
+    "mobile filters and document width",
+    "error state and retry",
+    "late async result does not overwrite another page",
+    "no missing assets or uncaught errors"
+  ],
+  "errors": [],
+  "screenshots": false
+}

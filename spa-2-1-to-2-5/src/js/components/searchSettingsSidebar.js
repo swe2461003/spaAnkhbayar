@@ -1,0 +1,4 @@
+import { t } from '../i18n/i18n.js';
+export function renderSearchSettings(state) {
+  return `<fieldset class="filter-group"><legend>${t('filters.columns')}</legend>${['teacher','credits','room','updated'].map(v => `<label class="checkbox"><input type="checkbox" name="column" value="${v}" ${state.columns.includes(v) ? 'checked' : ''}> ${t('filters.' + v)}</label>`).join('')}</fieldset><label class="label" for="course-sort">${t('filters.sort')}</label><div class="select is-fullwidth"><select id="course-sort" name="sort"><option value="code" ${state.sort === 'code' ? 'selected' : ''}>${t('search.code')}</option><option value="name" ${state.sort === 'name' ? 'selected' : ''}>${t('search.name')}</option></select></div><button class="button is-light mt-5" type="reset">${t('filters.clear')}</button>`;
+}

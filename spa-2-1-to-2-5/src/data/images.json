@@ -1,0 +1,21 @@
+{
+  "CON354": [
+    "./img/courses/CON354.svg",
+    "./img/courses/CON354__2.svg"
+  ],
+  "CS101": [
+    "./img/courses/CS101.svg"
+  ],
+  "CS203": [
+    "./img/courses/CS203.svg"
+  ],
+  "DB201": [
+    "./img/courses/DB201.svg"
+  ],
+  "IS202": [
+    "./img/courses/IS202.svg"
+  ],
+  "WEB301": [
+    "./img/courses/WEB301.svg"
+  ]
+}
