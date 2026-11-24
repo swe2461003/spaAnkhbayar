@@ -1,4 +1,3 @@
-// UI translations for sections 2.1–2.13
 export const translations = {
   "mn": {
     "nav": {
@@ -12,7 +11,15 @@ export const translations = {
       "books": "Материал",
       "contact": "Холбоо барих",
       "language": "EN",
-      "languageLabel": "Switch to English"
+      "languageLabel": "Switch to English",
+      "journal": "Дүнгийн бүртгэл",
+      "reports": "Тайлангууд",
+      "archive": "Файлын архив",
+      "audit": "Үйлдлийн аудит",
+      "accreditation": "Магадлан тайлан",
+      "excel": "Excel холболт",
+      "users": "Хэрэглэгч ба эрх",
+      "workload": "Багшийн В цаг"
     },
     "common": {
       "view": "Хуудас нээх",
@@ -179,7 +186,15 @@ export const translations = {
       "books": "Resources",
       "contact": "Contact",
       "language": "MN",
-      "languageLabel": "Монгол хэл рүү солих"
+      "languageLabel": "Монгол хэл рүү солих",
+      "journal": "Grade records",
+      "reports": "Reports",
+      "archive": "File archive",
+      "audit": "Audit trail",
+      "accreditation": "Accreditation",
+      "excel": "Excel connection",
+      "users": "Users and roles",
+      "workload": "Teacher workload"
     },
     "common": {
       "view": "Open page",
